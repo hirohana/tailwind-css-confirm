@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-css-confirm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": " npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirohana/tailwind-css-confirm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirohana/tailwind-css-confirm/issues"
+  },
+  "homepage": "https://github.com/hirohana/tailwind-css-confirm#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
